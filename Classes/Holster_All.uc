@@ -6,6 +6,6 @@ exec function AllHolster()
 	
 	 for (C = Level.ControllerList; C != None; C = C.NextController)
 	{
-		ConsoleCommand("Holster");
+		C.ConsoleCommand("Holster");
 	}
 }
