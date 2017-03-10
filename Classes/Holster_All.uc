@@ -4,7 +4,7 @@ function Mutate(string Command, PlayerController Sender)
 {	
 	switch(command)
 	{
-	case "Holster All":
+	case "HolsterAll":
 		HolsterAll(Sender);
 	}
 }
