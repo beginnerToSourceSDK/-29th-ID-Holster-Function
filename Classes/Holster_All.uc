@@ -18,7 +18,7 @@ function HolsterAll(PlayerController PC)
 	
 		for (C = Level.ControllerList; C != None; C = C.NextController)
 		{	
-			PlayerController(C).ConsoleCommand("holster");
+			ConsoleCommand("holster");
 		}
 	}	
 }
